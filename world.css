@@ -1,1 +1,64 @@
 /* Add your own styles */
+
+header {
+
+    background-color: darkslategray;
+    color:white;
+    text-align: center;
+    height: 90px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+
+}
+
+header img{
+    border-radius: 50%;
+    height: 35px;
+    width: 40px;
+   
+}
+
+#controls{
+    display: flex; 
+    text-align: center;
+    flex-direction: column;
+}
+
+#btn{
+    display: inline;
+    margin-top: 10px;
+}
+
+#city {
+    background-color: steelblue;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 10px;
+    align-self: center;
+   
+}
+
+#lookup{
+    background-color: lightseagreen;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 10px;
+    align-self: center;
+}
+
+#country{
+    height: 50px;
+    width: 600px;
+    align-self: center;
+    
+}
+label{
+    font-size: larger;
+}
+
